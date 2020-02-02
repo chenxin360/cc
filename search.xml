@@ -4,7 +4,7 @@
     <title>如何构建Vue 项目</title>
     <url>/2020/02/01/Vue/</url>
     <content><![CDATA[<p>欢迎来到我的博客，本文将手摸手带你从零构建一个 Vue 项目，一起来体会下 Vue.js 的好玩之处。</p>
-<h3 id="开发必备"><a href="#开发必备" class="headerlink" title="开发必备"></a>开发必备</h3><p>在开发 Vue 项目之前，我们应先确保本地安装了 <code>Node</code> 环境已经包管理工具 <code>npm</code> 或 <code>yarn</code>，打开终端运行命令查看：</p>
+<h3 id="开发必备"><a href="#开发必备" class="headerlink" title="开发必备"></a>开发必备</h3><p>在开发 Vue 项目之前，我们应先确保本地安装了 <code>Node</code> 环境已经包管理工具 <code>npm</code> 或 <code>yarn</code>，打开终端运行命令查看：<a id="more"></a></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 查看 node 版本</span></span><br><span class="line">node -v</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看 npm 版本</span></span><br><span class="line">npm -v</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看 yarn 版本</span></span><br><span class="line">yarn -v</span><br></pre></td></tr></table></figure>
 <p>好的，如果成功打印出版本号，那说明你本地已具备了 node 的运行环境，那我们就可以使用 <code>npm</code> 或 <code>yarn</code> 来愉快的安装管理项目的依赖了。当然，如果没有成功打印或者失败了，那你就需要去下载及安装 <a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node</a> 了。如图：<br><img src="/images/node.jpg" alt="node官网"><br>左边的是稳定标准版，右边的是最新版，这里推荐大家安装稳定版进行开发，当然你想尝试新特性就选择右边的。</p>
 <h3 id="开搞"><a href="#开搞" class="headerlink" title="开搞"></a>开搞</h3><p>当我们安装完 node 之后就可以进行愉快的后续构建工作了，在这里推荐大家使用官方的脚手架进行开发。</p>
@@ -27,6 +27,9 @@
 <p>浏览器会自动打开本地 <code>8000</code> 端口，如下：<br><img src="/images/vue-ui.jpg" alt="vue-ui"><br>在这个界面中，我们可以为自己的项目安装各种 vue-cli 插件，详细的操作大家可以自己动手尝试一下。</p>
 <h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>至此，我们就成功的构建启动了一个完整的 vue 项目。本文主要讲述了如何使用 vue-cli 快速构建 Vue 项目，后续会出如何用 Vue 搭建后台管理系统。</p>
 ]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
       <tags>
         <tag>Vue</tag>
         <tag>前端</tag>
@@ -35,7 +38,7 @@
   <entry>
     <title>如何用hexo搭建一个个性博客</title>
     <url>/2020/01/17/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.This blog adopts the <a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener">NexT</a> theme, you can find more info in <a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">NexT</a>.</p>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.This blog adopts the <a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener">NexT</a> theme, you can find more info in <a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">NexT</a>.<a id="more"></a></p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
