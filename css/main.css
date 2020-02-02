@@ -375,9 +375,9 @@ code {
   font-family: consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
 }
 code {
-  background: #eee;
+  background: #fff5f5;
   border-radius: 3px;
-  color: #555;
+  color: #ff2a2a;
   padding: 2px 4px;
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -400,7 +400,7 @@ code {
   padding: 0;
 }
 .highlight figcaption {
-  background: #eee;
+  background: #fff5f5;
   color: #4d4d4c;
   font-size: 0.875em;
   line-height: 1.2;
@@ -1161,7 +1161,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #66beff;
+  background: #ffe9fb;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
